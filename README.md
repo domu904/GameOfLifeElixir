@@ -1,3 +1,5 @@
-Creating the game of life simulation using Elixir
+#The Game of life simulation using Elixir
 
-Testing out the framework and Elixir approach to functional development
+Elixir approach to functional development. To run make sure to install Elixir and Erlang. To start the program run by:
+
+    $ elixir main.ex
