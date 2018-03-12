@@ -6,7 +6,10 @@ IO.puts "Are you ready?"
 IO.puts "Setting up the test?"
 
 
+defmodule Greeter do
+  def hello(), do: IO.puts "Hello, anonymous person!"
+  def hello(name1, name2), do: IO.puts "Hello, #{name1} and #{name2}"
+end
 
-#defmodule Greeter do
-#  def hello(), do "hello world"
-#end
+Greeter.hello()
+Greeter.hello("John","Jane")
